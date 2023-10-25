@@ -24,6 +24,9 @@ logs/*
 hs_err_pid*
 replay_pid*
 
+# ignoring idea
+.idea
+
 # ignoring temp files
 temp.txt
 
