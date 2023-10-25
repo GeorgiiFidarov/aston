@@ -8,7 +8,7 @@ public class CustomArrayList<E> {
     private static final int DEFAULT_CAPACITY = 10;
     private Object[] data;
     private int size;
-
+    //само-расширяемый лист
     public CustomArrayList(int initialCapacity) {
         if (initialCapacity < 0) {
             throw new IllegalArgumentException("Wrong Capacity definition");
